@@ -1,0 +1,207 @@
+[
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterAdded",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterRemoved",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "prevRecipient",
+                "type": "felt"
+            },
+            {
+                "name": "newRecipient",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterRecipientSet",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "prevProposed",
+                "type": "felt"
+            },
+            {
+                "name": "newProposed",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterOwnerProposed",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "prevOwner",
+                "type": "felt"
+            },
+            {
+                "name": "newOwner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterOwnerAccepted",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "maxRoutersPerTransfer",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "MaxRoutersPerTransferUpdated",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "liquidityFeeNumerator",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "LiquidityFeeNumeratorUpdated",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterApprovedForPortal",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterUnapprovedForPortal",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "_local",
+                "type": "felt"
+            },
+            {
+                "name": "key",
+                "type": "felt"
+            },
+            {
+                "name": "amount",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterLiquidityAdded",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "router",
+                "type": "felt"
+            },
+            {
+                "name": "to",
+                "type": "felt"
+            },
+            {
+                "name": "_local",
+                "type": "felt"
+            },
+            {
+                "name": "key",
+                "type": "felt"
+            },
+            {
+                "name": "amount",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "RouterLiquidityRemoved",
+        "type": "event"
+    }
+]

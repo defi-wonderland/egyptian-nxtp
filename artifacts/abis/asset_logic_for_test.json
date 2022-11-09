@@ -1,0 +1,158 @@
+[
+    {
+        "members": [
+            {
+                "name": "low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Uint256",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "members": [
+            {
+                "name": "Domain",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "Id",
+                "offset": 1,
+                "type": "Uint256"
+            }
+        ],
+        "name": "TokenId",
+        "size": 3,
+        "type": "struct"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_asset",
+                "type": "felt"
+            },
+            {
+                "name": "_amount",
+                "type": "Uint256"
+            }
+        ],
+        "name": "handle_incoming_asset",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_asset",
+                "type": "felt"
+            },
+            {
+                "name": "_to",
+                "type": "felt"
+            },
+            {
+                "name": "_amount",
+                "type": "Uint256"
+            }
+        ],
+        "name": "handle_outgoing_asset",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_candidate",
+                "type": "felt"
+            },
+            {
+                "name": "s",
+                "type": "TokenId"
+            }
+        ],
+        "name": "get_canonical_token_id",
+        "outputs": [
+            {
+                "name": "canonical",
+                "type": "TokenId"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_token",
+                "type": "felt"
+            },
+            {
+                "name": "s",
+                "type": "TokenId"
+            }
+        ],
+        "name": "is_local_origin",
+        "outputs": [
+            {
+                "name": "bool",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_key",
+                "type": "Uint256"
+            },
+            {
+                "name": "_id",
+                "type": "Uint256"
+            },
+            {
+                "name": "_domain",
+                "type": "felt"
+            },
+            {
+                "name": "s",
+                "type": "TokenId"
+            }
+        ],
+        "name": "get_local_asset",
+        "outputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_id",
+                "type": "Uint256"
+            },
+            {
+                "name": "_domain",
+                "type": "felt"
+            }
+        ],
+        "name": "calculate_canonical_hash",
+        "outputs": [
+            {
+                "name": "keccak",
+                "type": "Uint256"
+            }
+        ],
+        "type": "function"
+    }
+]
