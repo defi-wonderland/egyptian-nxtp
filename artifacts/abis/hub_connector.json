@@ -1,0 +1,368 @@
+[
+    {
+        "members": [
+            {
+                "name": "low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Uint256",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "data": [
+            {
+                "name": "proposed_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipProposed",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "previous_owner",
+                "type": "felt"
+            },
+            {
+                "name": "new_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "domain",
+                "type": "felt"
+            },
+            {
+                "name": "mirror_domain",
+                "type": "felt"
+            },
+            {
+                "name": "amb",
+                "type": "felt"
+            },
+            {
+                "name": "root_manager",
+                "type": "felt"
+            },
+            {
+                "name": "mirror_connector",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "NewConnector",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "previous",
+                "type": "felt"
+            },
+            {
+                "name": "current",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "MirrorConnectorUpdated",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "data_arr",
+                "type": "Uint256*"
+            },
+            {
+                "name": "encoded_data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "encoded_data_arr",
+                "type": "Uint256*"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "MessageSent",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "data_arr",
+                "type": "Uint256*"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "MessageProcessed",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_domain",
+                "type": "felt"
+            },
+            {
+                "name": "_mirror_domain",
+                "type": "felt"
+            },
+            {
+                "name": "_amb",
+                "type": "felt"
+            },
+            {
+                "name": "_root_manager",
+                "type": "felt"
+            },
+            {
+                "name": "_mirror_connector",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [],
+        "name": "domain",
+        "outputs": [
+            {
+                "name": "domain",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "amb",
+        "outputs": [
+            {
+                "name": "amb",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "root_manager",
+        "outputs": [
+            {
+                "name": "root_manager",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "mirror_domain",
+        "outputs": [
+            {
+                "name": "mirror_domain",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "mirror_connector",
+        "outputs": [
+            {
+                "name": "mirror_connector",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+            {
+                "name": "owner",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "proposed",
+        "outputs": [
+            {
+                "name": "proposed",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "proposed_ownership_timestamp",
+        "outputs": [
+            {
+                "name": "proposed_ownership_timestamp",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "delay",
+        "outputs": [
+            {
+                "name": "delay",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "renounced",
+        "outputs": [
+            {
+                "name": "has_owner_renounced",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_mirror_connector",
+                "type": "felt"
+            }
+        ],
+        "name": "set_mirror_connector",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "_data_arr",
+                "type": "Uint256*"
+            }
+        ],
+        "name": "process_message",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_expected",
+                "type": "felt"
+            }
+        ],
+        "name": "verify_sender",
+        "outputs": [
+            {
+                "name": "bool",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "newly_proposed",
+                "type": "felt"
+            }
+        ],
+        "name": "propose_new_owner",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "renounce_ownership",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "accept_proposed_owner",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "_data_arr",
+                "type": "Uint256*"
+            },
+            {
+                "name": "encoded_data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "encoded_data_arr",
+                "type": "Uint256*"
+            }
+        ],
+        "name": "sendMessage",
+        "outputs": [],
+        "type": "function"
+    }
+]

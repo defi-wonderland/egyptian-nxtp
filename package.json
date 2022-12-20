@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@defi-wonderland/crypto-husky-checks": "0.0.0-29a10090",
+    "husky": "8.0.2"
+  },
+  "scripts": {
+    "prepare": "husky install && wonderland-crypto-husky-checks install"
+  }
+}

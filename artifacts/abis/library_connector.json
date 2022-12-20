@@ -1,0 +1,133 @@
+[
+    {
+        "members": [
+            {
+                "name": "low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Uint256",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "data": [
+            {
+                "name": "proposed_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipProposed",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "previous_owner",
+                "type": "felt"
+            },
+            {
+                "name": "new_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "domain",
+                "type": "felt"
+            },
+            {
+                "name": "mirror_domain",
+                "type": "felt"
+            },
+            {
+                "name": "amb",
+                "type": "felt"
+            },
+            {
+                "name": "root_manager",
+                "type": "felt"
+            },
+            {
+                "name": "mirror_connector",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "NewConnector",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "previous",
+                "type": "felt"
+            },
+            {
+                "name": "current",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "MirrorConnectorUpdated",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "data_arr",
+                "type": "Uint256*"
+            },
+            {
+                "name": "encoded_data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "encoded_data_arr",
+                "type": "Uint256*"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "MessageSent",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "data_arr_len",
+                "type": "felt"
+            },
+            {
+                "name": "data_arr",
+                "type": "Uint256*"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "MessageProcessed",
+        "type": "event"
+    }
+]

@@ -1,0 +1,854 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "routedTransfers",
+        "outputs": [
+            {
+                "name": "address_len",
+                "type": "felt"
+            },
+            {
+                "name": "address",
+                "type": "felt*"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "routedTransfers_add",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "len",
+                "type": "felt"
+            }
+        ],
+        "name": "routedTransfers_arraysLen_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "routedTransfers_arraysLen_read",
+        "outputs": [
+            {
+                "name": "len",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedRouters_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedRouters_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedForPortalRouters_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedForPortalRouters_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "routerRecipients_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "routerRecipients_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "routerOwners_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "routerOwners_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "proposedRouterOwners_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "proposedRouterOwners_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "proposedRouterTimerstamp_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "proposedRouterTimerstamp_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "adoptedToLocalPools_read",
+        "outputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "adoptedToLocalPools_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedAssets_read",
+        "outputs": [
+            {
+                "name": "approved",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "approved",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedAssets_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "adoptedToCanonical_read",
+        "outputs": [
+            {
+                "name": "tokenId",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "tokenId",
+                "type": "felt"
+            }
+        ],
+        "name": "adoptedToCanonical_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "canonicalToAdopted_read",
+        "outputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "canonicalToAdopted_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "reconciledTransfers_read",
+        "outputs": [
+            {
+                "name": "isReconcilied",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "isReconcilied",
+                "type": "felt"
+            }
+        ],
+        "name": "reconciledTransfers_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "routerAddress",
+                "type": "felt"
+            },
+            {
+                "name": "assetAddress",
+                "type": "felt"
+            }
+        ],
+        "name": "routerBalances_read",
+        "outputs": [
+            {
+                "name": "balance",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "routerAddress",
+                "type": "felt"
+            },
+            {
+                "name": "assetAddress",
+                "type": "felt"
+            },
+            {
+                "name": "balance",
+                "type": "felt"
+            }
+        ],
+        "name": "routerBalances_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedRelayers_read",
+        "outputs": [
+            {
+                "name": "isApproved",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "isApproved",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedRelayers_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "relayerFees_read",
+        "outputs": [
+            {
+                "name": "fee",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "fee",
+                "type": "felt"
+            }
+        ],
+        "name": "relayerFees_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "transferRelayer_read",
+        "outputs": [
+            {
+                "name": "relayerAddress",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "relayerAddress",
+                "type": "felt"
+            }
+        ],
+        "name": "transferRelayer_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            }
+        ],
+        "name": "slippage_read",
+        "outputs": [
+            {
+                "name": "slippage",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "hash",
+                "type": "felt"
+            },
+            {
+                "name": "slippage",
+                "type": "felt"
+            }
+        ],
+        "name": "slippage_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "domain",
+                "type": "felt"
+            }
+        ],
+        "name": "remotes_read",
+        "outputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "domain",
+                "type": "felt"
+            },
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "remotes_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedSequencers_read",
+        "outputs": [
+            {
+                "name": "isApproved",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "isApproved",
+                "type": "felt"
+            }
+        ],
+        "name": "approvedSequencers_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "initialized_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "initialized_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "LIQUIDITY_FEE_NUMERATOR_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "LIQUIDITY_FEE_NUMERATOR_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "relayerFeeRouter_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "relayerFeeRouter_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "nonce_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "nonce_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "domain_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "domain_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "tokenRegistry_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "tokenRegistry_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "maxRoutersPerTransfer_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "maxRoutersPerTransfer_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "bridgeRouter_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "bridgeRouter_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "routerPermissionInfo_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "routerPermissionInfo_write",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "xAppConnectionManager_read",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "name": "xAppConnectionManager_write",
+        "outputs": [],
+        "type": "function"
+    }
+]

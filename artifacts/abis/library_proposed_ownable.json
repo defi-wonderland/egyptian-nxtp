@@ -1,0 +1,28 @@
+[
+    {
+        "data": [
+            {
+                "name": "proposed_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipProposed",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "previous_owner",
+                "type": "felt"
+            },
+            {
+                "name": "new_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "data": [
+            {
+                "name": "proposed_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipProposed",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "previous_owner",
+                "type": "felt"
+            },
+            {
+                "name": "new_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "watcher",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "WatcherAdded",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "watcher",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "WatcherRemoved",
+        "type": "event"
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "data": [
+            {
+                "name": "proposed_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipProposed",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "previous_owner",
+                "type": "felt"
+            },
+            {
+                "name": "new_owner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "watcher",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "WatcherAdded",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "watcher",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "WatcherRemoved",
+        "type": "event"
+    },
+    {
+        "inputs": [],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_watcher",
+                "type": "felt"
+            }
+        ],
+        "name": "add_watcher",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_watcher",
+                "type": "felt"
+            }
+        ],
+        "name": "remove_watcher",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "renounce_ownership",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "newly_proposed",
+                "type": "felt"
+            }
+        ],
+        "name": "propose_new_owner",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "accept_proposed_owner",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_watcher",
+                "type": "felt"
+            }
+        ],
+        "name": "is_watcher",
+        "outputs": [
+            {
+                "name": "is_watcher",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+            {
+                "name": "owner",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "proposed",
+        "outputs": [
+            {
+                "name": "proposed",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "proposed_ownership_timestamp",
+        "outputs": [
+            {
+                "name": "proposed_ownership_timestamp",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "delay",
+        "outputs": [
+            {
+                "name": "delay",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "renounced",
+        "outputs": [
+            {
+                "name": "has_owner_renounced",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

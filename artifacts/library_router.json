@@ -216,14 +216,259 @@
         "builtins": [
             "range_check"
         ],
-        "compiler_version": "0.10.0",
-        "data": [],
+        "compiler_version": "0.10.1",
+        "data": [
+            "0x20780017fff7ffd",
+            "0x4",
+            "0x400780017fff7ffd",
+            "0x1",
+            "0x208b7fff7fff7ffe",
+            "0x480680017fff8000",
+            "0x47657443616c6c657241646472657373",
+            "0x400280007ffd7fff",
+            "0x482680017ffd8000",
+            "0x2",
+            "0x480280017ffd8000",
+            "0x208b7fff7fff7ffe"
+        ],
         "debug_info": {
             "file_contents": {},
-            "instruction_locations": {}
+            "instruction_locations": {
+                "0": {
+                    "accessible_scopes": [
+                        "starkware.cairo.common.math",
+                        "starkware.cairo.common.math.assert_not_zero"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [
+                        {
+                            "location": {
+                                "end_col": 7,
+                                "end_line": 11,
+                                "input_file": {
+                                    "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                                },
+                                "start_col": 5,
+                                "start_line": 7
+                            },
+                            "n_prefix_newlines": 1
+                        }
+                    ],
+                    "inst": {
+                        "end_col": 7,
+                        "end_line": 12,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                        },
+                        "start_col": 5,
+                        "start_line": 12
+                    }
+                },
+                "2": {
+                    "accessible_scopes": [
+                        "starkware.cairo.common.math",
+                        "starkware.cairo.common.math.assert_not_zero"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 18,
+                        "end_line": 14,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                        },
+                        "start_col": 9,
+                        "start_line": 14
+                    }
+                },
+                "4": {
+                    "accessible_scopes": [
+                        "starkware.cairo.common.math",
+                        "starkware.cairo.common.math.assert_not_zero"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 15,
+                        "end_line": 17,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/cairo/common/math.cairo"
+                        },
+                        "start_col": 5,
+                        "start_line": 17
+                    }
+                },
+                "5": {
+                    "accessible_scopes": [
+                        "starkware.starknet.common.syscalls",
+                        "starkware.starknet.common.syscalls.get_caller_address"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 90,
+                        "end_line": 198,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                        },
+                        "start_col": 63,
+                        "start_line": 198
+                    }
+                },
+                "7": {
+                    "accessible_scopes": [
+                        "starkware.starknet.common.syscalls",
+                        "starkware.starknet.common.syscalls.get_caller_address"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 92,
+                        "end_line": 198,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                        },
+                        "start_col": 5,
+                        "start_line": 198
+                    }
+                },
+                "8": {
+                    "accessible_scopes": [
+                        "starkware.starknet.common.syscalls",
+                        "starkware.starknet.common.syscalls.get_caller_address"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [
+                        {
+                            "location": {
+                                "end_col": 93,
+                                "end_line": 199,
+                                "input_file": {
+                                    "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                                },
+                                "start_col": 5,
+                                "start_line": 199
+                            },
+                            "n_prefix_newlines": 0
+                        }
+                    ],
+                    "inst": {
+                        "end_col": 58,
+                        "end_line": 200,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                        },
+                        "parent_location": [
+                            {
+                                "end_col": 43,
+                                "end_line": 196,
+                                "input_file": {
+                                    "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                                },
+                                "parent_location": [
+                                    {
+                                        "end_col": 61,
+                                        "end_line": 201,
+                                        "input_file": {
+                                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                                        },
+                                        "start_col": 5,
+                                        "start_line": 201
+                                    },
+                                    "While trying to retrieve the implicit argument 'syscall_ptr' in:"
+                                ],
+                                "start_col": 25,
+                                "start_line": 196
+                            },
+                            "While expanding the reference 'syscall_ptr' in:"
+                        ],
+                        "start_col": 23,
+                        "start_line": 200
+                    }
+                },
+                "10": {
+                    "accessible_scopes": [
+                        "starkware.starknet.common.syscalls",
+                        "starkware.starknet.common.syscalls.get_caller_address"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 59,
+                        "end_line": 201,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                        },
+                        "start_col": 28,
+                        "start_line": 201
+                    }
+                },
+                "11": {
+                    "accessible_scopes": [
+                        "starkware.starknet.common.syscalls",
+                        "starkware.starknet.common.syscalls.get_caller_address"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 61,
+                        "end_line": 201,
+                        "input_file": {
+                            "filename": "/home/ng/cairo/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
+                        },
+                        "start_col": 5,
+                        "start_line": 201
+                    }
+                }
+            }
         },
-        "hints": {},
+        "hints": {
+            "0": [
+                {
+                    "accessible_scopes": [
+                        "starkware.cairo.common.math",
+                        "starkware.cairo.common.math.assert_not_zero"
+                    ],
+                    "code": "from starkware.cairo.common.math_utils import assert_integer\nassert_integer(ids.value)\nassert ids.value % PRIME != 0, f'assert_not_zero failed: {ids.value} = 0.'",
+                    "flow_tracking_data": {
+                        "ap_tracking": {
+                            "group": 0,
+                            "offset": 0
+                        },
+                        "reference_ids": {
+                            "starkware.cairo.common.math.assert_not_zero.value": 0
+                        }
+                    }
+                }
+            ],
+            "8": [
+                {
+                    "accessible_scopes": [
+                        "starkware.starknet.common.syscalls",
+                        "starkware.starknet.common.syscalls.get_caller_address"
+                    ],
+                    "code": "syscall_handler.get_caller_address(segments=segments, syscall_ptr=ids.syscall_ptr)",
+                    "flow_tracking_data": {
+                        "ap_tracking": {
+                            "group": 1,
+                            "offset": 1
+                        },
+                        "reference_ids": {
+                            "starkware.starknet.common.syscalls.get_caller_address.syscall_ptr": 1
+                        }
+                    }
+                }
+            ]
+        },
         "identifiers": {
+            "__main__.AppStorage": {
+                "destination": "contracts.library_app_storage.AppStorage",
+                "type": "alias"
+            },
+            "__main__.FALSE": {
+                "destination": "starkware.cairo.common.bool.FALSE",
+                "type": "alias"
+            },
             "__main__.HashBuiltin": {
                 "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
                 "type": "alias"
@@ -680,9 +925,1830 @@
                 "destination": "starkware.cairo.common.memcpy.memcpy",
                 "type": "alias"
             },
+            "__main__.TRUE": {
+                "destination": "starkware.cairo.common.bool.TRUE",
+                "type": "alias"
+            },
             "__main__._delay": {
                 "type": "const",
                 "value": 604800
+            },
+            "__main__.assert_not_zero": {
+                "destination": "starkware.cairo.common.math.assert_not_zero",
+                "type": "alias"
+            },
+            "__main__.get_caller_address": {
+                "destination": "starkware.starknet.common.syscalls.get_caller_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.AppStorage": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.AppStorage.Args": {
+                "full_name": "contracts.library_app_storage.AppStorage.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.AppStorage.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.AppStorage.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.AppStorage.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.AppStorage.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.ArrayAddress": {
+                "full_name": "contracts.library_app_storage.ArrayAddress",
+                "members": {
+                    "addressArray": {
+                        "cairo_type": "felt*",
+                        "offset": 0
+                    },
+                    "addressArray_len": {
+                        "cairo_type": "felt",
+                        "offset": 1
+                    }
+                },
+                "size": 2,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.CallParams": {
+                "full_name": "contracts.library_app_storage.CallParams",
+                "members": {
+                    "bridgedAmt": {
+                        "cairo_type": "felt",
+                        "offset": 10
+                    },
+                    "callData": {
+                        "cairo_type": "felt*",
+                        "offset": 6
+                    },
+                    "callData_len": {
+                        "cairo_type": "felt",
+                        "offset": 7
+                    },
+                    "canonicalDomain": {
+                        "cairo_type": "felt",
+                        "offset": 2
+                    },
+                    "canonicalId": {
+                        "cairo_type": "starkware.cairo.common.uint256.Uint256",
+                        "offset": 13
+                    },
+                    "delegate": {
+                        "cairo_type": "felt",
+                        "offset": 4
+                    },
+                    "destinationDomain": {
+                        "cairo_type": "felt",
+                        "offset": 1
+                    },
+                    "nonce": {
+                        "cairo_type": "felt",
+                        "offset": 12
+                    },
+                    "normalizedIn": {
+                        "cairo_type": "felt",
+                        "offset": 11
+                    },
+                    "originDomain": {
+                        "cairo_type": "felt",
+                        "offset": 0
+                    },
+                    "originSender": {
+                        "cairo_type": "felt",
+                        "offset": 9
+                    },
+                    "receiveLocal": {
+                        "cairo_type": "felt",
+                        "offset": 5
+                    },
+                    "slippage": {
+                        "cairo_type": "felt",
+                        "offset": 8
+                    },
+                    "to": {
+                        "cairo_type": "felt",
+                        "offset": 3
+                    }
+                },
+                "size": 15,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.ExecuteArgs": {
+                "full_name": "contracts.library_app_storage.ExecuteArgs",
+                "members": {
+                    "params": {
+                        "cairo_type": "contracts.library_app_storage.CallParams",
+                        "offset": 0
+                    },
+                    "routerSignatures": {
+                        "cairo_type": "felt*",
+                        "offset": 17
+                    },
+                    "routerSignatures_len": {
+                        "cairo_type": "felt",
+                        "offset": 18
+                    },
+                    "router_len": {
+                        "cairo_type": "felt",
+                        "offset": 16
+                    },
+                    "routers": {
+                        "cairo_type": "felt*",
+                        "offset": 15
+                    },
+                    "sequencer": {
+                        "cairo_type": "felt",
+                        "offset": 19
+                    },
+                    "sequencerSignature": {
+                        "cairo_type": "starkware.cairo.common.uint256.Uint256*",
+                        "offset": 20
+                    },
+                    "sequencerSignature_len": {
+                        "cairo_type": "felt",
+                        "offset": 21
+                    }
+                },
+                "size": 22,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.Args": {
+                "full_name": "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.LIQUIDITY_FEE_NUMERATOR.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.TokenId": {
+                "full_name": "contracts.library_app_storage.TokenId",
+                "members": {
+                    "domain": {
+                        "cairo_type": "felt",
+                        "offset": 0
+                    },
+                    "id": {
+                        "cairo_type": "starkware.cairo.common.uint256.Uint256",
+                        "offset": 1
+                    }
+                },
+                "size": 3,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.Uint256": {
+                "destination": "starkware.cairo.common.uint256.Uint256",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.Args": {
+                "full_name": "contracts.library_app_storage._assetWhitelistRemoved.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._assetWhitelistRemoved.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistRemoved.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.Args": {
+                "full_name": "contracts.library_app_storage._assetWhitelistTimestamp.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._assetWhitelistTimestamp.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._assetWhitelistTimestamp.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._ownershipDelay": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._ownershipDelay.Args": {
+                "full_name": "contracts.library_app_storage._ownershipDelay.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._ownershipDelay.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._ownershipDelay.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._ownershipDelay.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._ownershipDelay.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._ownershipDelay.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._ownershipDelay.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._ownershipDelay.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._ownershipDelay.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._ownershipDelay.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposed": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._proposed.Args": {
+                "full_name": "contracts.library_app_storage._proposed.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._proposed.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposed.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._proposed.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._proposed.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._proposed.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._proposed.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposed.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposed.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposed.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.Args": {
+                "full_name": "contracts.library_app_storage._proposedOwnershipTimestamp.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._proposedOwnershipTimestamp.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._proposedOwnershipTimestamp.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.Args": {
+                "full_name": "contracts.library_app_storage._reentrancyGuardStatus.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._reentrancyGuardStatus.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._reentrancyGuardStatus.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.Args": {
+                "full_name": "contracts.library_app_storage._routerWhitelistRemoved.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._routerWhitelistRemoved.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistRemoved.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.Args": {
+                "full_name": "contracts.library_app_storage._routerWhitelistTimestamp.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage._routerWhitelistTimestamp.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage._routerWhitelistTimestamp.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToCanonical": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.Args": {
+                "full_name": "contracts.library_app_storage.adoptedToCanonical.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.adoptedToCanonical.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.adoptedToCanonical.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToCanonical.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.Args": {
+                "full_name": "contracts.library_app_storage.adoptedToLocalPools.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.adoptedToLocalPools.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.adoptedToLocalPools.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.alloc": {
+                "destination": "starkware.cairo.common.alloc.alloc",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedAssets": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.approvedAssets.Args": {
+                "full_name": "contracts.library_app_storage.approvedAssets.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedAssets.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedAssets.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.approvedAssets.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedAssets.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.approvedAssets.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.approvedAssets.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedAssets.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedAssets.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedAssets.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.Args": {
+                "full_name": "contracts.library_app_storage.approvedForPortalRouters.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.approvedForPortalRouters.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedForPortalRouters.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRelayers": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.approvedRelayers.Args": {
+                "full_name": "contracts.library_app_storage.approvedRelayers.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedRelayers.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRelayers.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.approvedRelayers.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedRelayers.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.approvedRelayers.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.approvedRelayers.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRelayers.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRelayers.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRelayers.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRouters": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.approvedRouters.Args": {
+                "full_name": "contracts.library_app_storage.approvedRouters.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedRouters.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRouters.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.approvedRouters.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedRouters.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.approvedRouters.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.approvedRouters.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRouters.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRouters.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedRouters.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedSequencers": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.approvedSequencers.Args": {
+                "full_name": "contracts.library_app_storage.approvedSequencers.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedSequencers.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedSequencers.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.approvedSequencers.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.approvedSequencers.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.approvedSequencers.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.approvedSequencers.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedSequencers.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedSequencers.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.approvedSequencers.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.bridgeRouter": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.bridgeRouter.Args": {
+                "full_name": "contracts.library_app_storage.bridgeRouter.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.bridgeRouter.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.bridgeRouter.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.bridgeRouter.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.bridgeRouter.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.bridgeRouter.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.bridgeRouter.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.bridgeRouter.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.bridgeRouter.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.bridgeRouter.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.canonicalToAdopted": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.Args": {
+                "full_name": "contracts.library_app_storage.canonicalToAdopted.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.canonicalToAdopted.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.canonicalToAdopted.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.canonicalToAdopted.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.domain": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.domain.Args": {
+                "full_name": "contracts.library_app_storage.domain.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.domain.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.domain.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.domain.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.domain.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.domain.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.domain.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.domain.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.domain.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.domain.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.initialized": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.initialized.Args": {
+                "full_name": "contracts.library_app_storage.initialized.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.initialized.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.initialized.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.initialized.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.initialized.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.initialized.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.initialized.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.initialized.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.initialized.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.initialized.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.Args": {
+                "full_name": "contracts.library_app_storage.maxRoutersPerTransfer.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.maxRoutersPerTransfer.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.maxRoutersPerTransfer.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.nonce": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.nonce.Args": {
+                "full_name": "contracts.library_app_storage.nonce.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.nonce.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.nonce.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.nonce.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.nonce.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.nonce.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.nonce.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.nonce.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.nonce.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.nonce.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterOwners": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.Args": {
+                "full_name": "contracts.library_app_storage.proposedRouterOwners.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.proposedRouterOwners.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.proposedRouterOwners.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterOwners.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.Args": {
+                "full_name": "contracts.library_app_storage.proposedRouterTimerstamp.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.proposedRouterTimerstamp.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.proposedRouterTimerstamp.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.reconciledTransfers": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.reconciledTransfers.Args": {
+                "full_name": "contracts.library_app_storage.reconciledTransfers.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.reconciledTransfers.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.reconciledTransfers.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.reconciledTransfers.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.reconciledTransfers.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.reconciledTransfers.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.reconciledTransfers.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.reconciledTransfers.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.reconciledTransfers.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.reconciledTransfers.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFeeRouter": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.Args": {
+                "full_name": "contracts.library_app_storage.relayerFeeRouter.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.relayerFeeRouter.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.relayerFeeRouter.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFeeRouter.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFees": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.relayerFees.Args": {
+                "full_name": "contracts.library_app_storage.relayerFees.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.relayerFees.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFees.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.relayerFees.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.relayerFees.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.relayerFees.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.relayerFees.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFees.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFees.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.relayerFees.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.remotes": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.remotes.Args": {
+                "full_name": "contracts.library_app_storage.remotes.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.remotes.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.remotes.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.remotes.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.remotes.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.remotes.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.remotes.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.remotes.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.remotes.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.remotes.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.Args": {
+                "full_name": "contracts.library_app_storage.routedTransfers_arraysLen.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.routedTransfers_arraysLen.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_arraysLen.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_internal": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.Args": {
+                "full_name": "contracts.library_app_storage.routedTransfers_internal.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.routedTransfers_internal.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.routedTransfers_internal.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routedTransfers_internal.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerBalances": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.routerBalances.Args": {
+                "full_name": "contracts.library_app_storage.routerBalances.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerBalances.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerBalances.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.routerBalances.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerBalances.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.routerBalances.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.routerBalances.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerBalances.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerBalances.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerBalances.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerOwners": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.routerOwners.Args": {
+                "full_name": "contracts.library_app_storage.routerOwners.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerOwners.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerOwners.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.routerOwners.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerOwners.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.routerOwners.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.routerOwners.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerOwners.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerOwners.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerOwners.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerPermissionInfo": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.Args": {
+                "full_name": "contracts.library_app_storage.routerPermissionInfo.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.routerPermissionInfo.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.routerPermissionInfo.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerPermissionInfo.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerRecipients": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.routerRecipients.Args": {
+                "full_name": "contracts.library_app_storage.routerRecipients.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerRecipients.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerRecipients.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.routerRecipients.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.routerRecipients.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.routerRecipients.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.routerRecipients.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerRecipients.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerRecipients.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.routerRecipients.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.slippage": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.slippage.Args": {
+                "full_name": "contracts.library_app_storage.slippage.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.slippage.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.slippage.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.slippage.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.slippage.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.slippage.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.slippage.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.slippage.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.slippage.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.slippage.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.tokenRegistry": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.tokenRegistry.Args": {
+                "full_name": "contracts.library_app_storage.tokenRegistry.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.tokenRegistry.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.tokenRegistry.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.tokenRegistry.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.tokenRegistry.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.tokenRegistry.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.tokenRegistry.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.tokenRegistry.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.tokenRegistry.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.tokenRegistry.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.transferRelayer": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.transferRelayer.Args": {
+                "full_name": "contracts.library_app_storage.transferRelayer.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.transferRelayer.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.transferRelayer.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.transferRelayer.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.transferRelayer.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.transferRelayer.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.transferRelayer.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.transferRelayer.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.transferRelayer.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.transferRelayer.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.xAppConnectionManager": {
+                "type": "namespace"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.Args": {
+                "full_name": "contracts.library_app_storage.xAppConnectionManager.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.HashBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.ImplicitArgs": {
+                "full_name": "contracts.library_app_storage.xAppConnectionManager.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "contracts.library_app_storage.xAppConnectionManager.hash2": {
+                "destination": "starkware.cairo.common.hash.hash2",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.normalize_address": {
+                "destination": "starkware.starknet.common.storage.normalize_address",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.storage_read": {
+                "destination": "starkware.starknet.common.syscalls.storage_read",
+                "type": "alias"
+            },
+            "contracts.library_app_storage.xAppConnectionManager.storage_write": {
+                "destination": "starkware.starknet.common.syscalls.storage_write",
+                "type": "alias"
+            },
+            "starkware.cairo.common.bitwise.ALL_ONES": {
+                "type": "const",
+                "value": -106710729501573572985208420194530329073740042555888586719234
+            },
+            "starkware.cairo.common.bitwise.BitwiseBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.BitwiseBuiltin",
+                "type": "alias"
             },
             "starkware.cairo.common.bool.FALSE": {
                 "type": "const",
@@ -882,6 +2948,158 @@
             },
             "starkware.cairo.common.math.TRUE": {
                 "destination": "starkware.cairo.common.bool.TRUE",
+                "type": "alias"
+            },
+            "starkware.cairo.common.math.assert_not_zero": {
+                "decorators": [],
+                "pc": 0,
+                "type": "function"
+            },
+            "starkware.cairo.common.math.assert_not_zero.Args": {
+                "full_name": "starkware.cairo.common.math.assert_not_zero.Args",
+                "members": {
+                    "value": {
+                        "cairo_type": "felt",
+                        "offset": 0
+                    }
+                },
+                "size": 1,
+                "type": "struct"
+            },
+            "starkware.cairo.common.math.assert_not_zero.ImplicitArgs": {
+                "full_name": "starkware.cairo.common.math.assert_not_zero.ImplicitArgs",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "starkware.cairo.common.math.assert_not_zero.Return": {
+                "cairo_type": "()",
+                "type": "type_definition"
+            },
+            "starkware.cairo.common.math.assert_not_zero.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "starkware.cairo.common.math.assert_not_zero.value": {
+                "cairo_type": "felt",
+                "full_name": "starkware.cairo.common.math.assert_not_zero.value",
+                "references": [
+                    {
+                        "ap_tracking_data": {
+                            "group": 0,
+                            "offset": 0
+                        },
+                        "pc": 0,
+                        "value": "[cast(fp + (-3), felt*)]"
+                    }
+                ],
+                "type": "reference"
+            },
+            "starkware.cairo.common.math_cmp.RC_BOUND": {
+                "type": "const",
+                "value": 340282366920938463463374607431768211456
+            },
+            "starkware.cairo.common.math_cmp.assert_le_felt": {
+                "destination": "starkware.cairo.common.math.assert_le_felt",
+                "type": "alias"
+            },
+            "starkware.cairo.common.math_cmp.assert_lt_felt": {
+                "destination": "starkware.cairo.common.math.assert_lt_felt",
+                "type": "alias"
+            },
+            "starkware.cairo.common.pow.assert_le": {
+                "destination": "starkware.cairo.common.math.assert_le",
+                "type": "alias"
+            },
+            "starkware.cairo.common.pow.get_ap": {
+                "destination": "starkware.cairo.common.registers.get_ap",
+                "type": "alias"
+            },
+            "starkware.cairo.common.pow.get_fp_and_pc": {
+                "destination": "starkware.cairo.common.registers.get_fp_and_pc",
+                "type": "alias"
+            },
+            "starkware.cairo.common.registers.get_ap": {
+                "destination": "starkware.cairo.lang.compiler.lib.registers.get_ap",
+                "type": "alias"
+            },
+            "starkware.cairo.common.registers.get_fp_and_pc": {
+                "destination": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.ALL_ONES": {
+                "type": "const",
+                "value": 340282366920938463463374607431768211455
+            },
+            "starkware.cairo.common.uint256.BitwiseBuiltin": {
+                "destination": "starkware.cairo.common.cairo_builtins.BitwiseBuiltin",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.HALF_SHIFT": {
+                "type": "const",
+                "value": 18446744073709551616
+            },
+            "starkware.cairo.common.uint256.SHIFT": {
+                "type": "const",
+                "value": 340282366920938463463374607431768211456
+            },
+            "starkware.cairo.common.uint256.Uint256": {
+                "full_name": "starkware.cairo.common.uint256.Uint256",
+                "members": {
+                    "high": {
+                        "cairo_type": "felt",
+                        "offset": 1
+                    },
+                    "low": {
+                        "cairo_type": "felt",
+                        "offset": 0
+                    }
+                },
+                "size": 2,
+                "type": "struct"
+            },
+            "starkware.cairo.common.uint256.assert_in_range": {
+                "destination": "starkware.cairo.common.math.assert_in_range",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.assert_le": {
+                "destination": "starkware.cairo.common.math.assert_le",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.assert_nn_le": {
+                "destination": "starkware.cairo.common.math.assert_nn_le",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.assert_not_zero": {
+                "destination": "starkware.cairo.common.math.assert_not_zero",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.bitwise_and": {
+                "destination": "starkware.cairo.common.bitwise.bitwise_and",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.bitwise_or": {
+                "destination": "starkware.cairo.common.bitwise.bitwise_or",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.bitwise_xor": {
+                "destination": "starkware.cairo.common.bitwise.bitwise_xor",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.get_ap": {
+                "destination": "starkware.cairo.common.registers.get_ap",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.get_fp_and_pc": {
+                "destination": "starkware.cairo.common.registers.get_fp_and_pc",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.is_le": {
+                "destination": "starkware.cairo.common.math_cmp.is_le",
+                "type": "alias"
+            },
+            "starkware.cairo.common.uint256.pow": {
+                "destination": "starkware.cairo.common.pow.pow",
                 "type": "alias"
             },
             "starkware.starknet.common.storage.ADDR_BOUND": {
@@ -1543,12 +3761,82 @@
                 },
                 "size": 8,
                 "type": "struct"
+            },
+            "starkware.starknet.common.syscalls.get_caller_address": {
+                "decorators": [],
+                "pc": 5,
+                "type": "function"
+            },
+            "starkware.starknet.common.syscalls.get_caller_address.Args": {
+                "full_name": "starkware.starknet.common.syscalls.get_caller_address.Args",
+                "members": {},
+                "size": 0,
+                "type": "struct"
+            },
+            "starkware.starknet.common.syscalls.get_caller_address.ImplicitArgs": {
+                "full_name": "starkware.starknet.common.syscalls.get_caller_address.ImplicitArgs",
+                "members": {
+                    "syscall_ptr": {
+                        "cairo_type": "felt*",
+                        "offset": 0
+                    }
+                },
+                "size": 1,
+                "type": "struct"
+            },
+            "starkware.starknet.common.syscalls.get_caller_address.Return": {
+                "cairo_type": "(caller_address: felt)",
+                "type": "type_definition"
+            },
+            "starkware.starknet.common.syscalls.get_caller_address.SIZEOF_LOCALS": {
+                "type": "const",
+                "value": 0
+            },
+            "starkware.starknet.common.syscalls.get_caller_address.syscall_ptr": {
+                "cairo_type": "felt*",
+                "full_name": "starkware.starknet.common.syscalls.get_caller_address.syscall_ptr",
+                "references": [
+                    {
+                        "ap_tracking_data": {
+                            "group": 1,
+                            "offset": 0
+                        },
+                        "pc": 5,
+                        "value": "[cast(fp + (-3), felt**)]"
+                    },
+                    {
+                        "ap_tracking_data": {
+                            "group": 1,
+                            "offset": 1
+                        },
+                        "pc": 8,
+                        "value": "cast([fp + (-3)] + 2, felt*)"
+                    }
+                ],
+                "type": "reference"
             }
         },
         "main_scope": "__main__",
         "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
         "reference_manager": {
-            "references": []
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-3), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 5,
+                    "value": "[cast(fp + (-3), felt**)]"
+                }
+            ]
         }
     }
 }
